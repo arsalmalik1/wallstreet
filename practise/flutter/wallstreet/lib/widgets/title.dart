@@ -16,7 +16,11 @@ class TitleSection extends StatelessWidget {
         const SizedBox(
           height: 20,
         ),
-        Text(heading, style: bigText),
+        Text(
+          heading,
+          style: bigText,
+          textAlign: TextAlign.center,
+        ),
         const SizedBox(
           height: 10,
         ),
